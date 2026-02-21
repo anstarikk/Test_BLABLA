@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    background: #ff6600;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logo-block h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.logo-block h2 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.logo-block h3 {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.halal-badge {
+    margin: 15px auto;
+    background: green;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-section {
+    padding: 40px 10%;
+    background: #1a1a1a;
+}
+
+.menu-section.dark {
+    background: #000;
+}
+
+.menu-section h2 {
+    color: #ff6600;
+    margin-bottom: 30px;
+    border-left: 5px solid #ff6600;
+    padding-left: 10px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.menu-grid.small {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ff6600;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.map-container {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ff6600;
+}
+
+.payment {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff6600;
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
